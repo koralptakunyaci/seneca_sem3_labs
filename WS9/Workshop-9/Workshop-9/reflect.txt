@@ -1,0 +1,17 @@
+// Workshop 9
+// Name: Koralp Takunyaci
+// ID: 119716207
+// Email: ktakunyaci@myseneca.ca
+// Date: 05/12/2021
+// Section: NAA
+// I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+
+In this week’s workshop, I have learned and experienced the multi-threading and thread classes topics. This workshop was not too long but I had some difficulties doing this workshop, such as creating the thread class, because I didn’t experience any project about these topics. 
+In this workshop, I have used the binary files. The reason I have used binary files was to read and write the encrypted files. To decrypt this file I have used 
+std::ofstream ofl(file, ios::out | ios::binary); to open the file for writing and I have used,
+ifstream ifl(file, std::ios::in | ios::binary); to open the file for reading. This way I could read and edit the file. 
+Binding a function to arguments is important because we don’t need to write the same code again and again. It is also important because we can call an object to return the function’s result. In this workshop I have used bind function to avoid writing convert function again. 
+Multiple threads are useful because using multiple threading performs faster on multiple CPU computer. It also improves performance and concurrency. With multiple threading, we can access multiple applications in the same time. In this workshop, I have used 2 multiple threads to decrypt the encrypted file.
+It was a fun workshop, by using multiple threads I saw how important using them in some cases.
+
+

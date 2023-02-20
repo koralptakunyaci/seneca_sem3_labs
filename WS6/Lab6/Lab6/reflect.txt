@@ -1,0 +1,9 @@
+// Workshop 6
+// Name: Koralp Takunyaci
+// ID: 119716207
+// Email: ktakunyaci@myseneca.ca
+// Date: 14/11/2021
+
+// Section: NAA
+
+In this workshop, I usually study with the containers and iterators topic for my most modules. I also used error handling topic and lambda expressions especially for w6_p2.cpp file. While using vectors, we need to deallocate the memory after we allocate the memory in the vector. The reason for this is an allocated memory must be deallocated always. We have used “Vehicle*” type vector for creating “Car” and “Racecar” objects. After we create these objects we need to deallocate them to avoid memory leaks. While loading data with loadData() function, first we needed to open the file ,which is already implemented, to get the data. After the file is opened, I have used “createInstance” function to get the data and use it properly. In createInstance function, I have used a “throw” statement if the tags of vehicles are incorrect. This way I was able to detect what is wrong at first place. After I got the tags of vehicles, in constructors, I have used new exceptions for determining the errors. This way in loadData function I was able to detect what was wrong. I have used std::list<sdds::Vehicle*> and std::vector<sdds::Vehicle*> to store vehicles as pointers because Vehicle class is a base class of Racecar and Car classes. This is why we cannot use them like std::list<sdds::Vehicle> and std::vector<sdds::Vehicle>. 

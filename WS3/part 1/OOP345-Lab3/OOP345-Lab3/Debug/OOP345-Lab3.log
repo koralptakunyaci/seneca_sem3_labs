@@ -1,0 +1,11 @@
+﻿  w3_p2.cpp
+C:\Users\koral\OneDrive\Belgeler\Seneca\Semester 3\OOP345\Labs\WS03\part 1\OOP345-Lab3\OOP345-Lab3\PairSummable.h(62,23): warning C4552: '<<': result of expression not used
+C:\Users\koral\OneDrive\Belgeler\Seneca\Semester 3\OOP345\Labs\WS03\part 1\OOP345-Lab3\OOP345-Lab3\PairSummable.h(61): message : while compiling class template member function 'void sdds::PairSummable<int,std::string>::display(std::ostream &) const'
+C:\Users\koral\OneDrive\Belgeler\Seneca\Semester 3\OOP345\Labs\WS03\part 1\OOP345-Lab3\OOP345-Lab3\Set.h(20): message : see reference to class template instantiation 'sdds::PairSummable<int,std::string>' being compiled
+C:\Users\koral\OneDrive\Belgeler\Seneca\Semester 3\OOP345\Labs\WS03\part 1\OOP345-Lab3\OOP345-Lab3\SetSummable.h(20): message : see reference to class template instantiation 'sdds::Set<25,T>' being compiled
+          with
+          [
+              T=sdds::PairSummable<int,std::string>
+          ]
+C:\Users\koral\OneDrive\Belgeler\Seneca\Semester 3\OOP345\Labs\WS03\part 1\OOP345-Lab3\OOP345-Lab3\w3_p2.cpp(78): message : see reference to class template instantiation 'sdds::SetSummable<25,sdds::PairSummable<int,std::string>>' being compiled
+  OOP345-Lab3.vcxproj -> C:\Users\koral\OneDrive\Belgeler\Seneca\Semester 3\OOP345\Labs\WS03\part 1\OOP345-Lab3\Debug\OOP345-Lab3.exe

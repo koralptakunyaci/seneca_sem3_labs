@@ -1,0 +1,18 @@
+// Workshop 8
+// Name: Koralp Takunyaci
+// ID: 119716207
+// Email: ktakunyaci@myseneca.ca
+// Date: 28/11/2021
+// Section: NAA
+
+In workshop 8, I have experienced raw pointers and smart pointer. We have used these pointer types to merge the prices by using them. Using smart pointers seems so nice because I have been dealing with memory leaks. Unlike raw pointers, the advantage of smart pointers is that we don’t need to delete the object that we have allocated. For example in the following code I have used raw pointers which I need to delete to avoid memory leaks. 
+
+Product* rawPtr = new Product(desc[i].desc, price[j].price);
+delete rawPtr;
+
+But in the following code I have used smart pointers which I don’t need to deallocate because smart pointer did it itself.
+
+unique_ptr<Product> smartPtr(new Product(desc[i].desc, price[j].price));
+
+So as I have used, unique_ptr<Product> allowed me to create a pointer object of Product. Unlike smart pointers, I have just used Product and “*” sign to mention that this object is a raw pointer object. Other 
+In this workshop, the difference is just one line but I believe in the future using smart pointers will allow me to save a lot of time. This was a shorter workshop than the other ones this is why I didn’t face with too much difficulty. I just needed to understand how the syntax of smart pointers works. To understand the syntax, I checked the OOP345 website. I guess this was the only difficulty. 

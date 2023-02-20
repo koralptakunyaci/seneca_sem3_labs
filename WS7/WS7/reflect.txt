@@ -1,0 +1,17 @@
+// Workshop 7
+// Name: Koralp Takunyaci
+// ID: 119716207
+// Email: ktakunyaci@myseneca.ca
+// Date: 20/11/2021
+// Section: NAA
+
+Name: Brody Neumann
+Email: bneumann@myseneca.ca
+Student ID: 134873207
+Course: OOP345 NBB
+Workshop: 7
+
+In workshop 7, I have used different STL functions to complete this workshop. I have used std::sort() function that allowed me to sort collection of songs. I have also used std::for_each() function in cleanAlbum function for exactly cleaning the string of album variable by checking each album variable for all songs if there is no album given in the file. The other STL function I have used in inCollection function is std::find_if() function. The reason I have used this function was to find the value that is same with the name of the artist which is given in the function parameter. I have used std::count_if() and std::copy_if functions in getSongsForArtist function. The reason I have used count_if function was counting the number of songs for the artist that is given as a parameter of function. The reason I have used the copy_if function was to copy all the songs that I have get by using count_if function to a new list of songs for the artist given in the parameter. This way I separated the songs and put them in a list where they belong. Lastly, I have used std::accumulate() function to get the total length of the songs. Actually, using STL function was so much fun and way easier than manual loops. The loops are better if we don’t know some of the algorithms but if we know each algorithm, it is better to use them. The best way to avoid invalid strings is using exceptions. By using try and catch I can find the invalid strings and throw and exception.
+This was a fun workshop to be honest. There were a lot to learn again. I have had difficulties while using all the algorithms at first because when I study for new topics every week, I can understand the logic basically without using them in a code. Learning their logic basically helps me for quizzes but in quizzes, I cannot test them in a code. This is why I had some difficulty at first but once I started to try and understand each one of the algorithms, I started to solve my problems and it became easier for me. 
+
+

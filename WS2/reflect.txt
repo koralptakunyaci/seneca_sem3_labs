@@ -1,0 +1,9 @@
+// Workshop 2
+// Name: Koralp Takunyaci
+// ID: 119716207
+// Email: ktakunyaci@myseneca.ca
+// Date: 03/10/2021
+
+// Section: NAA
+
+In workshop 2, I have used different things than workshop 1. I have used input file stream object that is inside of fstream library. First, I have declared an object for my file, after that I have opened my file with “.open()” function, I have checked if the file is open with “.is_open()” function and I have checked if there are errors while retrieving records from file with “.eof()” function. This way I have retrieved the strings from “gutenberg_shakespeare” file and made it work properly without any errors. When I was done with the file, I have used “.close()” function to close the file. Other different thing that I have used this week was std::chrono library. I have used chrono library to defining starting and ending time for events with “now()” function . I have used this library for calculating nanoseconds by subtracting starting time from end time. The most important thing I have used in this workshop was copy semantics and move semantics.  The main difference between move and copy semantics is copy semantics are requires us to copy of variable with allocation of another array in dynamic memory. We are copying the contents into the new allocated memory, but in move semantics we only transfer the value of pointer itself to a new object. This difference makes move semantics faster than copy semantics. In this workshop, I have tried both semantics and saw the difference.

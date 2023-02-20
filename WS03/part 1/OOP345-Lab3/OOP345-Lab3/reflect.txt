@@ -1,0 +1,8 @@
+// Workshop 3
+// Name: Koralp Takunyaci
+// ID: 119716207
+// Email: ktakunyaci@myseneca.ca
+// Date: 09/10/2021
+// Section: NAA
+
+Workshop 3 was mostly about templates. I have used class templates by declaring template parameter that we want to use in the class before class declaration. I have specialized member variables and overloaded += operator function of “pairsummable.h” module. By using specialization for member variables, I also defined them and by specializing += operator function, I have defined an exception if both template parameters are string. By doing this, I became able to separate current object’s value and parameter’s value with “,”. The reason I have defined class variables outside of the class was the variables were static variables. When I am declaring a variable as a static variable, we need to define that variable outside of its class. In the code, we didn’t define initial value. I have left it as empty value because I knew that we sometimes need to use it as an integer and sometimes as a string. For me the hardest part was defining the += operator function because the methods I have used to add parameter’s value to current object’s value didn’t work at all. Therefore, I have tried different methods. In this workshop, I have practiced templates and tried to understand better.

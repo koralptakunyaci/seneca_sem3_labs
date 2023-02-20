@@ -1,0 +1,11 @@
+// Workshop 1
+// Name: Koralp Takunyaci
+// ID: 119716207
+// Email: ktakunyaci@myseneca.ca	
+// Date: 26/09/2021
+
+// Section: NAA
+
+// I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+
+While working on this workshop, I have tried and used most of the stuff that we have been learning for three weeks. For example, static variables. I have used just one static variable which is a member of “display” function that is inside of the “Event” module. Static variables allow us to declare a variable that will be remain allocated for the lifetime of the program. These variables can be allocated only once. Which means, if we use display function more than ones, static variables do not be allocated again. I have used static duration for “counter” variable. This allowed me to increment counter variable without losing its value by calling display function each time. The other topic I have used is internal and external linkage.  An identifier with internal linkage can only be seen inside of its translation unit that it is declared in. Static keyword is an internal linkage. An identifier with external linkage can be seen in every translation unit. To use external linkage, we need to use keyword “extern”. In this workshop, I have used extern keyword while declaring “g_sysClock” value. This way, this value became available for every translation unit in my program. I also used unsigned keyword that makes a variable only represent non-integer numbers. I have used unsigned keyword while declaring “g_sysClock” and time variable which is inside of the Event module. This way I was sure about storing seconds inside of these variables. I have also used “strcpy” function to accept a description in the form of a C-style null terminated string of any length.

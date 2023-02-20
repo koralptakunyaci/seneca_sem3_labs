@@ -1,0 +1,8 @@
+// Workshop 4
+// Name: Koralp Takunyaci
+// ID: 119716207
+// Email: ktakunyaci@myseneca.ca
+// Date: 23/10/2021
+// Section: NAA
+
+In workshop 4, I have practiced and learned different class relationships which are composition and aggregation. Composition is stronger relationship than aggregation. In composition relationship, the composer owns the component. I can say the Reservation class and the Restaurant class that have composition relationship as an example in this workshop. In aggregation relationship, the aggregator has an instance of another class. In aggregation, aggregator can use another classes’ variables. I can say the Reservation class and the ConfirmationSender class that have aggregation relationship as an example in this workshop. So, if I want to destroy ConfirmationSender object, it will not affect the Reservation object. If I want to destroy Restaurant object, Reservation object will be destroyed too. In the implementation of the copy and move functions the difference between composition and aggregation is that in composition relationship, we need to move or copy the resources itself but in aggregation we are moving or copying the pointer to the source. Also, I have used string library functions such as substr(), find() and erase() and also used algorithm library function stoi() in this workshop to edit strings in Reservation module. 
